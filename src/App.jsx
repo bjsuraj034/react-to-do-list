@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import AddTask from './Components/AddTask';
-import TodoList from './Components/TodoList';
+import ToDoList from './Components/ToDoList';
 
 const App = () => {
   // Initialize tasks from localStorage
