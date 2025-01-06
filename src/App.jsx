@@ -45,7 +45,7 @@ const App = () => {
     <div className="bg-slate-300 min-h-screen w-full flex flex-col items-center bg-gradient-to-r from-cyan-700 via-blue-500 to-indigo-600">
       <div className="border sm:w-1/2 md:w-1/2 lg:w-1/2 max-sm:px-5   h-[92vh] overflow-auto m-5 py-5">
         <AddTask addTasks={addTasks} />
-        <TodoList
+        <ToDoList
           tasks={tasks}
           deleteTask={deleteTask}
           toggleTaskCompletion={toggleTaskCompletion}
